@@ -5,7 +5,8 @@ var app = new Vue(
             message:"Hello world",
             count:0,
             visitor_name:"",
-            visitors:[]
+            visitors:[],
+            activeclass:'btn-primary'
         },
         methods:{
             sayHi: function (){
